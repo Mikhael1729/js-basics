@@ -1,0 +1,40 @@
+/* ID selector */
+
+#hello1 {
+    color: red;
+}
+
+
+/* Class selector */
+
+.hello1 {
+    color: blue;
+}
+
+
+/* Attribute selector */
+
+img[src="./images/snoopy.png"] {
+    width: 200px;
+}
+
+
+/* Pseudo-class selectors */
+
+
+/* User action pseudo class */
+
+button:hover {
+    background-color: blue;
+}
+
+
+/* Simple pseudo class */
+
+#pseudo-selectors1 strong:first-child {
+    color: yellow;
+}
+
+#pseudo-selectors2 strong {
+    color: orange;
+}
