@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends List</title>
+    <link href="./styles.css" rel="stylesheet">
+    <link href="./stylesTable.css" rel="stylesheet">
+    <script src="./Button.js" defer></script>
+    <script src="./Table.js" defer></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <button class="right">Dark / Light</button>
+        <h1>Formulario</h1>
+
+        <img src="imageFriends.jpeg">
+
+        <form action="#">
+            <div class="form-item">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+            </div>
+
+            <div class="form-item">
+                <label for="surnames">Last Name</label>
+                <input type="text" id="surnames">
+            </div>
+
+            <div class="form-item">
+                <label for="birthdate">Birthdate</label>
+                <input type="date" id="birthdate">
+            </div>
+
+            <button id="save-button">Save</button>
+        </form>
+
+        <div>
+            <h2>Friends List</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Last Name</th>
+                        <th>Birthdate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
