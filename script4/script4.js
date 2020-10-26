@@ -90,3 +90,16 @@ function updateTable(newPerson) {
 
     tbodyElement.appendChild(rowElement);
 }
+
+const nameElement = document.getElementById("name");
+nameElement.addEventListener("input", handleEvent);
+
+const nameTextElement = document.createElement("h1");
+
+function handleEvent(event) {
+    nameTextElement.textContent = nameElement.value;
+
+    const containerElement = document.getElementsByClassName("container")[0];
+
+    containerElement.appendChild(nameTextElement);
+}
